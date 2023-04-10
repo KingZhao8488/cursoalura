@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(31, 31, 34);
+    height: 100%;
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(206, 216, 216);
+}
+header{
+    background-color: rgb(69, 69, 69);
+    padding: 20px 0;
+}
+.caja{
+    width: 90%;
+    position: relative;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top:110px;
+    right:0%;
+
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a {
+    text-transform: uppercase;
+    color: rgb(206, 216, 216);
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+form{
+    margin: 40px 0;
+}
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.input-padre{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+footer{
+    background-color: url(banner/bg.jpg);
+    text-align: center;
+    padding: 40px;
+}
+.copy{
+    color: rgb(206, 216, 216);
+    margin: 20px;
+}
+nav a:hover{
+    color:blue;
+    text-decoration: underline;
+}
+.checkbox{
+    margin: 20px 0;
+}
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: azure;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.enviar:hover{
+    background: rgb(255, 98, 0);
+    transform: scale(1.1);
+    /*transform: rotate(180deg); prueba de transiciones de css3*/
+}
+table{
+    margin: 40px 40px;
+
+}
+thead{
+    background: rgb(69, 69, 69);
+    font-weight: bold;
+}
+td, th{
+    border: 1px solid;
+    border-color: beige;
+    padding: 8px 15px;
+}

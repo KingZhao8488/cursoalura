@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(31, 31, 34);
+    height: 100%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(206, 216, 216);
+}
+.tituloprin{
+    padding-left: 30px;
+    color: rgb(206, 216, 216);
+}
+#banner{
+    width: 100%;
+}
+.principal{
+    background-color: rgb(69, 69, 69);
+    padding: 20px;
+}
+.centrartitulo{
+    text-align: center;
+    color: rgb(206, 216, 216);
+}
+p{
+    text-align: center;
+    color: rgb(206, 216, 216);
+}
+em strong{
+    color: brown;
+}
+
+#mision{
+    font-size: 20px;
+}
+.Diferenciales{
+    background-color: rgb(69, 69, 69);
+    padding: 30px;
+}
+
+.items{
+    font-style: italic;
+    color: rgb(206, 216, 216);
+}
+ul{
+    display:inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+.imgdif{
+    width: 50%;
+}
+footer{
+    background-color: url(banner/bg.jpg);
+    text-align: center;
+    padding: 40px;
+}
+.copy{
+    color: rgb(206, 216, 216);
+    margin: 20px;
+}

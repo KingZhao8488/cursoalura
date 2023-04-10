@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="Andres G" content="Alura">
+        <title>Contacto Barberia Alura</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="contactos.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+
+    </head>
+    
+    <body>
+        <header>
+            <div class="caja">
+                <h1><img src="banner/logo-blanco.png" alt="Logo Barberia Alura"></h1>
+                    <nav>
+                        <ul class="navegacion">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="productos.html">Productos</a></li>
+                            <li><a href="contactos.html">Contacto</a></li>
+                        </ul>
+                    </nav>
+            </div>
+        </header>
+
+        <main>
+            <form>
+
+                <div>
+                    <label for="nombreapellido">Nombre y apellido</label>
+                    <input type="text" id="nombreapellido" class="input-padre" required >
+
+                    <label for="email">e-mail</label>
+                    <input type="email" id="emal" class="input-padre" required placeholder="emai@dominio.com">
+
+                    <label for="telefono">telefono</label>
+                    <input type="tel" id="telefono" class="input-padre" required placeholder="(XXX) XXX XXXX">
+
+                    <label for="mensaje">Mensaje</label>
+                    <textarea cols="70" rows="10" id="mensaje" class="input-padre" required></textarea>
+
+                </div>
+
+                <fieldset>
+                    <legend>¿Como le gustaria que lo contactemos?</legend>
+
+                    <label for="radio-email"><input type="radio" name="contactos" value="email" id="radio-email">E-mail</label>
+                    
+                    <label for="radio-telefono"><input type="radio" name="contactos" value="telefono" id="radio-telefono">Telefono</label>
+                    
+                    <label for="radio-whatsapp"><input type="radio" name="contactos" value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
+                    
+
+                </fieldset>
+                <div>
+                    <legend>¿En que horario prefiere ser atendido?</legend>
+                    <select>
+                        <option value="">Mañana</option>
+                        <option value="">Tarde</option>
+                        <option value="">Noche</option>
+                    </select>
+
+                </div>
+
+                <label class="checkbox"><input type="checkbox" checked>¿Le gustaria recibir novedades de la barberia Alura?</label>
+
+                <input type="submit" value="Submit" class="enviar">
+                
+            </form>
+
+            <table>
+                <thead>
+                     <tr>
+                        <th>Dias</th>
+                        <th>Horario</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>lunes</td>
+                        <td>08 h - 20 h</td>
+                    </tr>
+
+                    <tr>
+                        <td>Miercoles</td>
+                        <td>08 h - 20 h</td>
+                    </tr>
+
+                    <tr>
+                        <td>Viernes</td>
+                        <td>08 h - 20 h</td>
+                    </tr>
+                </tbody>
+                
+
+            </table>
+
+        </main>
+
+        <footer>
+            <img src="banner/logo-blanco.png">
+            <p class="copy">&copy; Copyright Barberia Alura - 2022</p>
+        </footer>
+       
+    </body>
+
+</html>
